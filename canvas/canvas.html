@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<script src="canvas.js" type="text/javascript"></script>
+		<script src="cnv.js" type="text/javascript"></script>
+		<title>TRIPPY</title>
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="canvas.css">
+		
+</head>
+<body onload="void( new ClothApp() );">
+
+<header id="header">
+<p id="logo"><a href="../index.html"><img id="tr_logo" src="img/logo.png" border="0" width="65px" height="65px"> 
+<span class="rainbow">TRIPPY</span></a></p>
+
+<button type="button" onclick="aud_play_pause()"><audio id="myAudio" loop autoplay
+ <source src="sound/bensound-scifi.mp3"
+         type='audio/mp4'>
+ <source src="sound/bensound-scifi.ogg"
+         type='audio/ogg; codecs=vorbis'>
+</audio><img src="img/sound-animated.gif" id="play_pause"></button>
+</header>
+
+<table id="table">
+<tr align="center"><td>
+	<div>		
+	<canvas id="cv" width="480" height="300"></canvas>
+	</div>	
+		
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+<!-- 3D on 2D Canvas http://gyu.que.jp/jscloth/-->

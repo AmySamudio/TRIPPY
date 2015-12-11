@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url('img/0.gif');
+	color: #fff;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+#cv {
+	background: #000;
+	margin: 0;
+	display: block;
+}
+
+p {
+	padding-left: 1em;
+	margin: 8px;
+	font-family: Arial, sans-serif;
+}
+
+div {
+	width: 480px;
+	margin: 0;
+	padding-bottom: 1em;
+	padding-top: 10%;
+}
+
+ul.navi {
+	margin-top: 0;
+}
+
+ul.navi li {
+	display: inline;
+	padding: 5px 1em;
+}
+
+ul.navi .selected {
+	background: #222;
+	color: #fff;
+}
+
+ul.navi a {
+	color: #f80;
+}
+
+address {width: 470px; text-align: right;}
+address img {border: none;}
+
+#header {
+	width: 100%;
+	background: url('img/header-bg.png');
+	height: 80px;
+	position: fixed;
+	margin-top: 0;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+#logo a {color: #fff;
+		text-decoration: none; 
+		float: left;
+		font-size: 30px; 
+		padding-left: 5px;
+		padding-right: 150px;
+		color: #fff; 
+		font-family:"Wellfleet"; 
+		font-weight: bold;
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+button {background: 0;
+       border: 0;
+	   cursor: pointer;
+	   float: right;}
+	  
+	   
+#play_pause {
+	width: 20px;
+	height: 20px;
+	float: right; 
+	margin-top: 20px;}
+	
+table {width: 100%;}

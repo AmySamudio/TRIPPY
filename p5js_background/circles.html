@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TRIPPY</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+    <script src="libraries/p5.js" type="text/javascript"></script>
+	<script src="libraries/p5.dom.js" type="text/javascript"></script>
+	<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+	<script src="audio.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="style.css"/>
+
+    </head>
+<body>
+<header id="header">
+
+<div>
+<div id="logo"><a href="../index.html"><img id="tr_logo" src="img/logo.png" 
+border="0" width="65px"  height="65px"> 
+<span class="rainbow">TRIPPY</span></a></div>
+</div>
+
+<button type="button" onclick="aud_play_pause()"><audio id="myAudio" loop autoplay
+ <source src="sound/bensound-moose.mp3"
+         type='audio/mp4'>
+ <source src="sound/bensound-moose.ogg"
+         type='audio/ogg; codecs=vorbis'>
+</audio><img src="img/sound-animated.gif" id="play_pause"></button>
+</header>
+
+</body>
+</html>
+
+
+<!-- 
+p5js experiments - A PEN BY Caroline Artz  http://codepen.io/carolineartz/pen/raRYYe
+-->

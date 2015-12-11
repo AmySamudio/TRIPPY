@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+		<title>TRIPPY</title>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+<body>
+
+<div class="foreground">
+<header id="header">
+
+<div>
+<div id="logo"><a href="walk-cycle/index.html"><img id="tr_logo" src="img/logo.png" 
+border="0" width="65px"  height="65px"> 
+<span class="rainbow">TRIPPY</span></a></div>
+</div>
+
+<button type="button" onclick="aud_play_pause()">
+<audio id="myAudio" loop autoplay
+<source src="sound/bensound-popdance.mp3"
+         type='audio/mp4'>
+<source src="sound/bensound-popdance.ogg"
+         type='audio/ogg; codecs=vorbis'>
+</audio>
+<img src="img/sound-animated.gif" id="play_pause"></button>
+
+</header>
+
+
+<button type="button" id="bird" onClick="location.href='scroll_effect/scroll_effect.html'">
+<img src="img/bird.gif" border="0" width="120px"  height="150px"></button>
+
+<button type="button" id="bird2" onClick="clicksound.playclip()">
+<img src="img/hawk.gif" border="0" width="150px"  height="180px"></button>
+
+<button type="button" id="saucer" onClick="location.href='alien/alien.html'">
+<img src="img/flying-saucer.gif" border="0" width="120px"  height="50px"></button>
+
+<button type="button" id="mice" onClick="location.href='squares/squares.html'">
+<img src="img/mice.gif" border="0" width="120px"  height="130px"></button>
+
+<button type="button" id="run" onClick="location.href='p5js_background/circles.html'">
+<img src="img/run.gif" border="0" width="200px"  height="320px"></button>
+
+<button type="button" id="run2" onClick="location.href='canvas/canvas.html'">
+<img src="img/run2.gif" border="0" width="120px"  height="130px"></button>
+
+<button type="button" id="pegasus">
+<img src="img/pegasus.gif" border="0" width="130px"  height="90px" onmouseover="mouseoversound.playclip()"></button>
+
+<button type="button" id="pikachu" onClick="location.href='videobackground/video.html'">
+<img src="img/Pikachu_walks.gif" border="0" width="120px"  height="130px"></button>
+</div>
+
+<div class="midground">
+  <div class="walk"></div>
+</div>
+
+<div class="background">
+</div>
+
+<img src="img/venus.gif" border="0" width="100px"  height="100px" id="venus">
+</body>
+</html>
+<!-- 
+Parallax backgrounds with walk cycle - A PEN BY Rachel Nabors  http://codepen.io/rachelnabors/pen/AvGhp
+Fading Background CSS3 - A PEN BY phph http://codepen.io/philipsacht/pen/aqBnk
+HTML/Elements/audio https://www.w3.org/wiki/HTML/Elements/audio 
+Royalty Free Music from Bensound  www.bensound.com
+Animal Sounds http://www.orangefreesounds.com/dark-master/
+-->

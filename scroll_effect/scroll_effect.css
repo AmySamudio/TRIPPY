@@ -1,0 +1,153 @@
+body {
+	padding:0;
+	margin:0;
+}
+
+h1 {
+    font-family:'Arvo';
+	font-weight:normal;
+	font-size: 55px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+   font-family:'Arvo';
+   font-weight: normal;
+   font-size: 40px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
+
+h3 {
+   font-family: Oswald;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 5px 0;
+   padding: 0;
+   z-index: 1;
+   position: relative;
+}
+
+#header {
+	width: 100%;
+	background: url('img/header-bg.png');
+	height: 80px;
+	position: fixed;
+	margin-top: 0;
+}
+
+#nav { width: 525px; float: right; margin-top: 20px; }
+#logo a {color: #fff;
+		text-decoration: none; 
+		float: left; 
+		font-size: 30px; 
+		margin: 10px; 
+		color: #fff; 
+		font-family:"Wellfleet"; 
+		font-weight: bold;
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;
+}
+
+#nav li{
+	margin-top: 0;
+	float: left;
+	margin-left: 21px;
+	border-radius: 15px;
+}
+
+#nav li a { color: black; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a:active { color: black; opacity:1; border-bottom: 2px solid black; }
+#nav li a:hover { color: black; opacity:1;  }
+
+
+#slide1{
+	background:url('img/a.gif') 50% 0 no-repeat fixed;
+	height: 400px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+	
+}
+
+#slide2{
+	background: url('img/e.jpg') 50% 0 no-repeat fixed;
+	color: white;
+	height: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+}
+
+#slide3{
+	background: url('img/b.gif') 50% 0 no-repeat fixed;
+	color: white;
+	height: 600px;
+	padding: 170px 0 0 0;
+	background-size: cover;
+}
+
+#slide4{
+	background: url('img/d.jpg') 50% 0 no-repeat fixed;
+	color: white;
+	height: 300px;
+	padding: 200px 0;
+}
+
+#slide5{
+	background: url('img/f.gif') 50% 0 no-repeat fixed;
+	height: 200px;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: white;
+	background-size: cover;
+}
+
+#slide6{
+	background:url('img/slide1.jpg') 50% 0 no-repeat fixed;
+	height: 200px;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: white;
+	background-size: cover;
+}
+
+#slide7{
+	background:url('img/e.gif') 50% 0 no-repeat fixed;
+	height: 100px;
+	margin: 0 auto;
+	padding: 290px 0;
+	color: white;
+	background-size: cover;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;	
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+button {background: 0;
+       border: 0;}
+	   
+#play_pause {
+	width: 20px;
+	height: 20px;}
+
+#copyright  { color: black; font-family:"Wellfleet";  font-size: 14px; margin-top: 100px; text-align: center;  }
+#copyright  a { text-decoration: none; color: black;  }

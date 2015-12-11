@@ -1,0 +1,51 @@
+@import "bourbon";
+body {padding: 0; 
+     margin: 0;
+	 overflow: hidden;
+}
+ 
+canvas {vertical-align: top;} 
+	
+#header {
+	width: 100%;
+	background: url('img/header-bg.png');
+	height: 80px;
+	position: fixed;
+	margin-top: 0;
+	z-index: 3;
+}
+
+#logo a {color: #fff;
+		text-decoration: none; 
+		float: left; 
+		font-size: 30px; 
+		margin: 10px; 
+		color: #fff; 
+		font-family:"Wellfleet"; 
+		font-weight: bold;
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+
+image {
+	 z-index: 2;
+	 float:left;}
+	 
+button {background: 0;
+       border: 0;
+	   cursor: pointer;
+	   float: right;}
+	  
+	   
+#play_pause {
+	width: 20px;
+	height: 20px;
+	float: right; 
+	margin-top: 20px;}
